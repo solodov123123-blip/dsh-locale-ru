@@ -1,0 +1,31 @@
+/** Aggregated export of all Russian dictionaries. */
+import { coreDictionaries } from './core.ts';
+import { taskBoardRu } from './task-board.ts';
+import { aionuiPanelRu } from './aionui-panel.ts';
+import { petRu } from './pet.ts';
+import { sshRu } from './ssh.ts';
+import { gitGraphRu } from './git-graph.ts';
+import { skinCenterRu } from './skin-center.ts';
+import { webUiSettingsRu } from './web-ui-settings.ts';
+import { liveStatsRu } from './live-stats.ts';
+import { describeImageRu } from './describe-image.ts';
+import { remoteWebUiRu } from './remote-web-ui.ts';
+import { dshmarketRu } from './dshmarket.ts';
+import { agentTeamsRu } from './agent-teams.ts';
+import { modlensRu } from './modlens.ts';
+import { communityPluginsRu } from './community-plugins.ts';
+import { cordisRu } from './cordis.ts';
+import { sessionLogDownloadRu } from './session-log-download.ts';
+import { antigravityRu } from './antigravity.ts';
+import { animeVfxRu } from './anime-vfx.ts';
+import { skillExplorerRu } from './skill-explorer.ts';
+import { archiveManagerRu } from './archive-manager.ts';
+import { pluginManagerRu } from './plugin-manager.ts';
+import { marketRu } from './market.ts';
+import { betterSidebarRu } from './better-sidebar.ts';
+import { desktopLauncherRu } from './desktop-launcher.ts';
+import { doctorRu } from './doctor.ts';
+import { chatRecoveryRu } from './chat-recovery.ts';
+export { coreDictionaries, taskBoardRu, aionuiPanelRu, petRu, sshRu, gitGraphRu, skinCenterRu, webUiSettingsRu, liveStatsRu, describeImageRu, remoteWebUiRu, dshmarketRu, agentTeamsRu, modlensRu, communityPluginsRu, cordisRu, sessionLogDownloadRu, antigravityRu, animeVfxRu, skillExplorerRu, archiveManagerRu, pluginManagerRu, marketRu, betterSidebarRu, desktopLauncherRu, doctorRu, chatRecoveryRu, };
+export declare const ALL_RUSSIAN_DICTIONARIES: Record<string, Record<string, string>>;
+//# sourceMappingURL=index.d.ts.map
