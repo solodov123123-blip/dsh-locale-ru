@@ -113,6 +113,19 @@ export function injectRussianLocale(ctx: Context): void {
       }
     }
 
+    // Register language in catalog if not already
+    if (typeof (localeService as any).addLanguage === 'function') {
+      try {
+        ;(localeService as any).addLanguage({
+          id: 'ru',
+          label: 'Русский',
+          fallback: 'en',
+        })
+      } catch {
+        // ignore
+      }
+    }
+
     // Switch active locale to 'ru' if not already
     try {
       if (localeService.getLocale().active !== 'ru') {

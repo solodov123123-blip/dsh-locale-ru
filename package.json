@@ -1,5 +1,5 @@
 {
-  "name": "@deepseek-ai/dsh-client-locale-ru",
+  "name": "dsh-locale-ru",
   "description": "Russian localization plugin for DeepSeek Harness: comprehensive core and third-party UI dictionaries, runtime injection, and module-loader enrichment",
   "version": "0.1.0-rc.5",
   "publishConfig": {
@@ -37,6 +37,15 @@
       "immediately": true
     }
   },
+  "author": "solodov123123-blip",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solodov123123-blip/dsh-locale-ru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solodov123123-blip/dsh-locale-ru/issues"
+  },
+  "homepage": "https://github.com/solodov123123-blip/dsh-locale-ru#readme",
   "license": "MIT",
   "peerDependencies": {
     "@deepseek-ai/cordis": "workspace:^",

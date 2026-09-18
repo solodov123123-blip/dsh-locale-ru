@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+.dsh/
